@@ -1,5 +1,6 @@
 title: Your awesome title
-
+baseurl: "/cpg"
+url: "https://crownprogaming.github.io"
 markdown: kramdown
 exclude:
   - Gemfile
