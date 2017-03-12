@@ -1,0 +1,64 @@
+hr{
+    border: 0;
+    border-top: solid 1px lightgrey;
+    height: 1px;
+    margin: 2em 0 2em 0;
+}
+
+#logo h1{
+    color: black;
+    opacity: 1;
+    margin: 5px 0;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.navbar-nav li{
+    margin: 0 0.35em 0 0.35em;
+}
+
+.navbar-nav li a{
+    color: black;
+}
+
+#social-media a{
+    margin-right: 20px;
+}
+#social-media i{
+    border-radius: 50%;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    color: white;
+}
+
+/* THis is so stupid, why do **I** have to do this !??*/
+#social-media i#facebook{
+    background-color:#3B5998;
+}
+
+#social-media i#twitter{
+    background-color: #00ACED;
+}
+
+#social-media i#youtube{
+    background-color: #CD332D;
+}
+
+#social-media i#twitch{
+    background-color: #6441A5;
+}
+
+#social-media i#github{
+    background-color: #444444;
+}

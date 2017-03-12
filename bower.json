@@ -1,17 +1,22 @@
 {
   "name": "cpg",
-  "description": "The CPG Website",
-  "main": "",
-  "authors": [
-    "Daniel"
-  ],
-  "license": "MIT",
-  "homepage": "index.html",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "propeller": "^0.0.1",
+    "material-design-icons": "^3.0.1",
+    "slick-carousel": "^1.6.0",
+    "bootstrap-social": "^5.1.1",
+    "material-design-iconic-font": "^2.2.0"
+  }
 }

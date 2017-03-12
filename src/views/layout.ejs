@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Crown Pro Gaming</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/img/logo/icon.jpg" rel="icon">
+        <!-- Bootsrap -->
+        <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">       
+        <!-- Google Icons -->
+        <link href="/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
+        <!-- Propeller -->
+        <link href="/bower_components/propeller/dist/css/propeller.min.css" rel="stylesheet">
+        <!-- Slick -->
+        <link href="/bower_components/slick-carousel/slick/slick.css" rel="stylesheet">
+        <link href="/bower_components/slick-carousel/slick/slick-theme.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="/css/cpg.css" rel="stylesheet">
+
+        <%- style %>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <section id="header">
+            <div id="logo" >
+                <a href="/">
+                    <img height="120px" src="/img/logo/crown-logo.png" class="center-block">
+                </a>
+                <h1 class="text-center pmd-display1">Crown Productions Gaming</h1>
+            </div>
+            <hr>
+            <% include nav.ejs %>
+            <!-- display coursel here, only for home page. -->
+        </section>
+
+        <%- body %>
+
+        <!-- jQuery -->
+        <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- Propeller -->
+        <script src="/bower_components/propeller/dist/js/propeller.min.js"></script>
+        <!-- Slick -->
+        <script src="/bower_components/slick-carousel/slick/slick.min.js"></script>
+        <%- script %>
+    </body>
+</html>
