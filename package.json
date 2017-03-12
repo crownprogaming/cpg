@@ -1,0 +1,27 @@
+{
+  "name": "cpg",
+  "version": "1.0.0",
+  "description": "The CPG website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crownprogaming/cpg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crownprogaming/cpg/issues"
+  },
+  "homepage": "https://github.com/crownprogaming/cpg#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-exec": "^2.0.0"
+  }
+}

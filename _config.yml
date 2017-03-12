@@ -4,3 +4,8 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+  - bower_components
+  - bower.json
+  - node_modules
+  - package.json
+  - Gruntfile.coffee
