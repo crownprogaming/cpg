@@ -1,0 +1,6 @@
+title: Your awesome title
+
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
